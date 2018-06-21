@@ -1,0 +1,94 @@
+
+CASO D'USO UC1: REGISTRAZIONE ALLIEVO
+ATTORE PRINCIPALE: RESPONSABILE DEL CENTRO
+
+1)Un Allievo si presenta in un centro e richiede di iscriversi alle Attività giornaliere offerte dal centro.
+
+2)Il Responsabile sceglie l'opzione "Registrazione allievo".
+
+3)Il Responsabile inserisce i dati dell'Allievo(nome, cognome, email, numero di telefono e città) e il Sistema riconosce se si
+tratta di un nuovo utente o di un Allievo già iscritto(ha partecipato precedentemente almeno a un'Attività dell'Azienda).
+
+4)Se l'Allievo è un nuovo utente, il sistema lo registra tramite un nuovo codice Allievo e conferma l inserimento del nuovo Allievo nel Sistema.
+
+=========================================================================================
+
+CASO D'USO UC2: ISCRIZIONE ALLIEVO AD UN'ATTIVITA'
+ATTORE PRINCIPALE: RESPONSABILE DEL CENTRO
+
+1)Il Responsabile sceglie l'opzione "Iscrizione allievo.
+
+2)Il Sistema mostra l'elenco delle Attività disponibili e l'elenco degli allievi iscritti.
+
+3)Il Responsabie inserisce il nome dell'Attività e l'email dell'Allievo che vuole iscriversi ad essa.
+
+4)Il sistema conferma che l'iscrizione è avvenuta con successo e mostra la lista degli allievi iscritti ad almeno un'Attività.
+
+========================================================================================================================
+
+CASO D'USO UC3: INSERISCI NUOVA ATTIVITA'  
+ATTORE PRINCIPALE: RESPONSABILE DEL CENTRO
+
+1)Il Responsabile seleziona l'opzione "Registrazione attività".
+
+2)Il Responsabile inserisce il nome e l'orario dell'Attività.
+
+3)Il Sistema registra opportunamente la nuova Attività.
+
+4)Il Sistema mostra l'elenco delle Attività registrate nel centro corrente. 
+
+===========================================================================================================================
+
+CASO D'USO UC4: VISUALIZZAZIONE DELLA LISTA ATTIVITA' DEL CENTRO
+ATTORE PRINCIPALE: RESPONSABILE DEL CENTRO
+
+1)Il Responsabile del centro vuole consultare la lista delle Attività del suo centro.
+
+2)Il Responsabile seleziona l'opzione "Lista Attività del centro".
+
+3)Il Sistema mostra la lista delle Attività.
+
+4)Il Responsabile clicca su una delle Attività per conoscerne la scheda.
+
+5)Il sistema mostra la scheda dell'Attività, che presenta nome ed orario.
+
+========================================================================================================================
+
+CASO D'USO UC5: LISTA ATTIVITA' DATO UN ALLIEVO
+ATTORE PRINCIPALE: RESPONSABILE DEL CENTRO
+
+1)Il Responsabile del centro e' interessato a conoscere a quali Attività un determinato Allievo si e' iscritto.
+
+2)Il Responsabile seleziona l'opzione "Lista Attività per Allievo".
+
+3)Il Sistema mostra l'elenco degli allievi. Il Responsabile seleziona l'allievo di interesse tramite la sua email.
+
+4)Il Sistema mostra le Attività alle quali un Allievo si è iscritto.
+
+=========================================================================================================================
+
+CASO D'USO UC6: VISUALIZZA LA LISTA DEI CENTRI DELL'AZIENDA
+ATTORE PRINCIPALE: RESPONSABILE DELL'AZIENDA, DIRETTORE  
+
+1)Il Direttore vuole conoscere la lista dei Centri appartenenti all'Azienda.
+
+2)Il Direttore seleziona l'opzione "Lista Centri dell'Azienda"
+
+3)Il Sistema mostra la lista dei Centri dell'azienda.
+
+4)Il Direttore clicca su un centro per visualizzarne la scheda.
+
+5)Il sistema mostra la scheda del centro, che presenta nome, email, indirizzo e numero di telefono.
+
+==========================================================================================================================
+
+CASO D'USO UC7: VISUALIZZA  LA LISTA DEGLI ALLIEVI DELL'AZIENDA
+ATTORE PRINCIPALE: RESPONSABILE DELL'AZIENDA, DIRETTORE
+
+1)Il direttore vuole conoscere la lista degli Allievi che sono iscritti all'Azienda.
+
+2)Il direttore sceglie l'opzione "Lista Allievi dell'azienda".
+
+3)Il sistema mostra la lista degli Allievi iscritti.
+
+==========================================================================================================================
